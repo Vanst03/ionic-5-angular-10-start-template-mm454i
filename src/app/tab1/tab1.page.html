@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="titulo"> Home </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="conteudo">
+    <img
+      class="img-estilo"
+      src="https://pbs.twimg.com/media/FWQzOvhWIAANFPU?format=png&name=small"
+      alt="Imagem de consulta"
+    />
+    <p>
+      Veja o consultório médico mais próximo de você! Procure as especializações
+      desejadas!
+    </p>
+
+    <ion-card [routerLink]="['/tabs/tab2']">
+      <ion-item>
+        <ion-thumbnail slot="start">
+          <img
+            scr="https://pbs.twimg.com/media/FWQ7xgzXoAUzzAK?format=png&name=small"
+          />
+        </ion-thumbnail>
+        <ion-label style="color: #fff" class="testo_card">
+          Veja aqui as especialidades!
+        </ion-label>
+      </ion-item>
+    </ion-card>
+  </div>
+</ion-content>

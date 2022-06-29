@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="titulo"> Qual especialidade está procurando? </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-card (click)="mostrarClinico()">
+  <ion-item lines="none">
+    <ion-thumbnail slot="start">
+      <img
+        src="https://pbs.twimg.com/media/FWRMtM5XoAE044A?format=png&name=small"
+      />
+    </ion-thumbnail>
+    <ion-label>Clínico Geral</ion-label>
+  </ion-item>
+</ion-card>
+
+<ion-card (click)="mostrarOncologista()">
+  <ion-item lines="none">
+    <ion-thumbnail slot="start">
+      <img
+        src="https://pbs.twimg.com/media/FWRM6zPX0AMwQYz?format=png&name=small"
+      />
+    </ion-thumbnail>
+    <ion-label>Oncologista</ion-label>
+  </ion-item>
+</ion-card>
+
+<ion-card (click)="mostrarPediatra()">
+  <ion-item lines="none">
+    <ion-thumbnail slot="start">
+      <img
+        src="https://pbs.twimg.com/media/FWRMp-AWQAcHZ0H?format=png&name=240x240"
+      />
+    </ion-thumbnail>
+    <ion-label>Pediatra</ion-label>
+  </ion-item>
+</ion-card>
+<ion-content></ion-content>
